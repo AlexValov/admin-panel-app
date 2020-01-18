@@ -1,0 +1,14 @@
+.ItemCard {
+    display: flex;
+    /* flex-direction: row;  */
+    justify-content: center;
+    width: 1100px;
+    height: 754px;
+    background-color: cornsilk;
+    align-self: center;
+}
+
+.itemWrapper {
+    width: 600px;
+    background-color: darkgray;
+}
