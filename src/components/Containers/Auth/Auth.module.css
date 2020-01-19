@@ -1,0 +1,22 @@
+.Auth {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    width: 350px;
+    height: 336px;
+    align-self: center;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 20px rgba(40, 40, 40, 0.05);
+    border-radius: 10px;
+    margin-top: 282px;
+    padding:16px;
+}
+
+.Auth h1 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    margin-top: 24px;
+}

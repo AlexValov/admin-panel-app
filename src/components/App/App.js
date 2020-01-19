@@ -6,6 +6,7 @@ import Auth from '../Containers/Auth/Auth';
 import AddItem from '../Containers/AddItem/AddItem';
 import ListItem from '../Containers/ListItem/ListItem';
 import ItemCard from '../ItemCard/ItemCard';
+import Registration from '../Containers/Auth/Registration';
 
 
 const App = () => {
@@ -13,7 +14,8 @@ const App = () => {
     <BrowserRouter>
       <Layout>
         <Switch>
-          <Route path='/auth' component={Auth} />
+          <Route path='/login' component={Auth} />
+          <Route path='/registration' component={Registration} />
           <Route path='/item-creator' component={AddItem} />
           <Route path='/item/:id' component={ItemCard} />
           <Route path='/item' component={ItemCard} />
